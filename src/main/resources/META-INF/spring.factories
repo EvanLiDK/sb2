@@ -1,1 +1,2 @@
-org.springframework.context.ApplicationContextInitializer=com.mooc.sb2.initializer.FirstInitializer
+#org.springframework.context.ApplicationContextInitializer=com.mooc.sb2.initializer.FirstInitializer
+#org.springframework.context.ApplicationListener=com.mooc.sb2.listener.FirstListener,com.mooc.sb2.listener.FourthListener

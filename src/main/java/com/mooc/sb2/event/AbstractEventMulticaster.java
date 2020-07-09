@@ -10,7 +10,7 @@ import java.util.List;
 public abstract class AbstractEventMulticaster implements EventMulticaster {
 
     @Autowired
-    private List<WeatherListener> listenerList =new ArrayList<>();
+    private List<WeatherListener> listenerList ;
 
     @Override
     public void multicastEvent(WeatherEvent event) {
